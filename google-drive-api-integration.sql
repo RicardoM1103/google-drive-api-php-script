@@ -1,0 +1,5 @@
+CREATE TABLE folders (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    folder_name VARCHAR(255) NOT NULL,
+    folder_url VARCHAR(255) NOT NULL
+);
